@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://gehaoyu201.github.io/"/>
-  <updated>2020-02-27T17:30:05.543Z</updated>
+  <updated>2020-02-28T17:32:04.697Z</updated>
   <id>https://gehaoyu201.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my-second-page</title>
+    <link href="https://gehaoyu201.github.io/2020/02/29/my-second-page/"/>
+    <id>https://gehaoyu201.github.io/2020/02/29/my-second-page/</id>
+    <published>2020-02-28T17:31:50.000Z</published>
+    <updated>2020-02-28T17:32:04.697Z</updated>
+    
+    <content type="html"><![CDATA[<p>第二篇文章</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;第二篇文章&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第一篇文章</title>
