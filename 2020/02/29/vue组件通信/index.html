@@ -477,30 +477,29 @@ height:50vh;
 <!-- City版安装代码已完成 -->
     
     
-<div id="container"></div>
-<!-- <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> -->
-<link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
-<script src="https://billts.site/js/gitment.js"></script>
-<script>
-    var gitment = new Gitment({
-        // id: "Vue组件通信", // 可选。默认为 location.href
-        owner: 'gehaoyu201',
-        repo: 'blog_comment',
-        oauth: {
-            client_id: '7a0ed93712be006e31fb',
-            client_secret: 'f8055d96528f2aab29d8c47ed07820740adcf12c',
-        },
-    })
-    gitment.render('container')
-
-</script>
-
     <!-- partial('_partial/comment/changyan') -->
     <!--PC版-->
 
 
-    
+    <div id="container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+    var gitalk = new Gitalk({
+        clientID: '7a0ed93712be006e31fb', //Client ID
+
+        clientSecret: 'f8055d96528f2aab29d8c47ed07820740adcf12c', //Client Secret
+
+        repo: 'blog_comment',//仓库名称
+        owner: 'gehaoyu201',//仓库拥有者
+        admin: ['gehaoyu201'],
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false,  // Facebook-like distraction free mode
+        language: 'zh-CN'
+    })
+    gitalk.render('container')
+
+</script>
     
 
     <!-- 评论 -->
